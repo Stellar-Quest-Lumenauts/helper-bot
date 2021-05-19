@@ -23,10 +23,11 @@ async def on_ready():
 @slash.permission(guild_id=763798356484161566,permissions=quest_roles)
 async def _ping(ctx): # Defines a new "context" (ctx) command called "ping."
     await ctx.send(f"Pong! ({client.latency*1000}ms)")
-    
+
 for command in commands:
     function_name = f"_{command}"
-    @slash.slash(name=command, guild_ids=guild_ids)
+    @slash.slash(name=command, guild_ids=guild_ids,
+				 description=f"{commands[command][:97]}...")
     async def function_name(ctx):
         await ctx.send(f"{commands[ctx.command.upper()]}")
 
