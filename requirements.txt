@@ -1,2 +1,2 @@
-discord-py-slash-command
+git+git://github.com/eunwoo1104/discord-py-slash-command@master#discord-py-slash-command
 discord.py
