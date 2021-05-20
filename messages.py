@@ -12,5 +12,5 @@ commands = {
     "WAIT_TIME": "Currently, two lobbies begin their quest every minute. All lobbies should begin within *approximately* 30 minutes. Until then, please enjoy the opportunity to grow in patience.",
     "SPOILERS": "**DON'T POST SPOILERS.** We're all learning together, so providing screenshots, descriptions, etc. of the quest at hand before everybody has their chance to begin gives some players an unfair advantage. Don't be that guy.",
     "RESOURCES": "Be sure to carefully look at the resources provided in the quest. There are often some hidden clues and hints within those resources.",
-    "TAX": "We are not tax lawyers. If we were, we probably wouldn’t be a tax lawyer in your jurisdiction. Please don’t ask for specific tax advice, and we’ll try our best not to give it. If you do have any questions, please head over to our <#844983942473973760> channel for a list of useful links, resources, and information."
+    "TAX": "We are not tax lawyers. Please don’t ask for specific tax advice, and we’ll try our best not to give it. If you do have any questions, please head over to our <#844983942473973760> channel for a list of useful information."
 }
