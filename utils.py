@@ -14,13 +14,16 @@ def get_env_vars() -> (list, int, str):
         print("Missing BOT_TOKEN environment variable")
         exit(1)
 
+    server_id = []
+
     try: 
-        server_id = int(os.environ.get("SERVER_ID"))
+        server_id = [int(os.environ.get("SERVER_ID"))]
     except ValueError as e:
         pass
 
     try:
-        server_id = json.loads(os.environ.get("SERVER_ID"))
+        if not server_id: 
+            server_id = json.loads(os.environ.get("SERVER_ID"))
     except Exception as e:
         print("There was an error parsing the SERVER_ID variable, please validate that is set to either an int or an array of ints")
         exit(1)
