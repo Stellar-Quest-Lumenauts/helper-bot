@@ -9,7 +9,7 @@ To add your bot to your discord server with the appropriate permissions, ensure 
     "403 Forbidden (error code: 50001): Missing Access"
 
 ### Set-Up
-In order to run this bot you need `Python >= 3.0` and the required dependencies installed.
+In order to run this bot you need `Python >= 3.6` and the required dependencies installed.
 You can do this by executing `pip install -r requirements.txt`
 
 ### Environmental Variables:
